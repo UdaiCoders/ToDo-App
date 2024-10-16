@@ -45,9 +45,12 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/UdaiCoders/ToDo-App.git
+   ```bash
 cd tasks-app
-npm install
-npm start
+   ```bash
+   npm install
+ ```bash
+ npm start
 
 
 The app should now be running on http://localhost:3000/.
