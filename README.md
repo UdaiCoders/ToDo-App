@@ -3,6 +3,7 @@
 A task organiser app built with **React JS**, **Tailwind CSS**, **TypeScript**, and **Redux Toolkit**. This app allows users to manage their daily tasks efficiently with features like categorisation, search, and dark mode.
 
 ![Home Page]
+![todolist](https://github.com/user-attachments/assets/ac740efe-25fb-4eab-ab42-99cde0ba42d4)
 
 ## ✨ Features
 
