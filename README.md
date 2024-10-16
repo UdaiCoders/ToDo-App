@@ -1,46 +1,60 @@
 # 📅 Tasks App (To-Do List)
 
-Website de um organizador de tarefas (to-do list) feito com React JS, Tailwind CSS, TypeScript, Redux Toolkit e mais.
+A task organiser app built with **React JS**, **Tailwind CSS**, **TypeScript**, and **Redux Toolkit**. This app allows users to manage their daily tasks efficiently with features like categorisation, search, and dark mode.
 
-![página inicial](https://github.com/aridsm/tasks-app/blob/master/public/To-Do%20List%20_%20All%20tasks.png)
+![Home Page]
 
-## Descrição
+## ✨ Features
 
-- Aplicado de organizar suas tarefas com os seguintes dados: título, descrição, data, marcar como completo e marcar como importante. 
-- As tarefas são organizadas em rotas: tarefas de hoje, tarefas importantes, incompletas, completas, todas as tarefas e tarefas por diretório (pasta). Os diretórios e as tarefas podem ser editados ou excluídos. Além disso, há um diretório principal chamado "Main" que não pode ser editado ou excluído.
-- A lista de tarefas pode ser exibida primeiro em: mais próximas, mais distantes, completas ou incompletas.
-- Você pode pesquisar por alguma tarefas no campo de pesquisa.
-- As tarefas de hoje são mostradas na seção do usuário e nas notificações.
-- Os dados de tarefas, diretórios e darkmode são salvos no localStorage.
+- Organise tasks with attributes such as title, description, due date, mark as complete, and mark as important.
+- Tasks are sorted into different routes:
+  - Today’s tasks
+  - Important tasks
+  - Incomplete tasks
+  - Completed tasks
+  - All tasks
+- Tasks can be managed within directories (folders). The "Main" directory is permanent and cannot be edited or deleted.
+- Sort tasks by due date (nearest or farthest) or by completion status (complete/incomplete).
+- Search functionality to quickly find specific tasks.
+- Notifications display today’s tasks.
+- Task data, directories, and dark mode preference are saved in **localStorage**.
 
-## Objetivo
+## 🎯 Objective
 
-O projeto teve principalmente como objetivo pôr em prática conhecimentos de TypeScript, Tailwind, Redux Toolkit e React Js.
+This project is primarily intended to enhance practical knowledge in the following areas:
+- **TypeScript**
+- **Tailwind CSS**
+- **Redux Toolkit**
+- **React JS**
 
-## Ferramentas utilizadas
+## 🔧 Tools and Technologies
 
-- React JS
-- TypeScript
-- Tailwind CSS
-- Redux Toolkit
-- React Router DOM
-- HTML
-- Figma (prototipagem)
+- **React JS**
+- **TypeScript**
+- **Tailwind CSS**
+- **Redux Toolkit**
+- **React Router DOM**
+- **HTML**
+- **Figma** (for prototyping)
 
-## Como testar
+## 🚀 Getting Started
 
-Você pode acessar o projeto aqui: https://tasks-app-aridsm.netlify.app/
+To run this project locally, follow these steps:
 
-Ou rodar na sua máquina: 
+1. **Clone the repository:**
 
-``` 
-git clone https://github.com/aridsm/tasks-app.git
+   ```bash
+   git clone https://github.com/UdaiCoders/ToDo-App.git
 cd tasks-app
 npm install
 npm start
-```
 
-## Observações
 
-- Os dados de tarefas, diretórios e darkmode ficam salvos no localStorage do seu navegador. Você pode clicar no botão "delete all data" para removê-los do localStorage.
-- Para fins demonstrativos, o aplicativo possui uma lista padrão de 3 tarefas e 1 diretório chamado "Main".
+The app should now be running on http://localhost:3000/.
+
+📝 Notes
+Task data, directories, and dark mode settings are stored in localStorage.
+For demo purposes, the app comes with a pre-populated list of 3 tasks and 1 directory called "Main".
+You can delete all stored data by clicking the Delete All Data button in the app.
+🎮 Demo
+Check out the live demo of the app here.
