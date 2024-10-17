@@ -2,7 +2,6 @@
 
 A task organiser app built with **React JS**, **Tailwind CSS**, **TypeScript**, and **Redux Toolkit**. This app allows users to manage their daily tasks efficiently with features like categorisation, search, and dark mode.
 
-![Home Page]
 ![todolist](https://github.com/user-attachments/assets/ac740efe-25fb-4eab-ab42-99cde0ba42d4)
 
 ## ✨ Features
@@ -58,4 +57,4 @@ Task data, directories, and dark mode settings are stored in localStorage.
 For demo purposes, the app comes with a pre-populated list of 3 tasks and 1 directory called "Main".
 You can delete all stored data by clicking the Delete All Data button in the app.
 🎮 Demo
-Check out the live demo of the app here.
+Check out the [live demo](https://todoapp-alpha-jade.vercel.app/) of the app here.
